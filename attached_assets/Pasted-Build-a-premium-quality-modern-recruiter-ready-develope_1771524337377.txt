@@ -1,0 +1,199 @@
+Build a premium-quality, modern, recruiter-ready developer portfolio website for a Software Developer with 2+ years of professional experience.
+
+The website must look like a top Silicon Valley engineer portfolio — clean, elegant, highly professional, visually impressive, and smooth. Focus strongly on UI polish, animations, responsiveness, and performance.
+
+🎨 Design Requirements
+
+Use a modern professional color palette (deep blue / indigo / dark theme with soft accent colors).
+
+Include glassmorphism or subtle neumorphism elements where appropriate.
+
+Add smooth scrolling + section reveal animations.
+
+Include micro-interactions on buttons, cards, and navigation.
+
+Use premium typography pairing.
+
+Maintain strong spacing and visual hierarchy.
+
+Must look impressive even to senior recruiters.
+
+🧩 Required Website Sections
+1️⃣ Hero Section (Very Important)
+
+Full-width premium hero
+
+Developer name placeholder
+
+Title: Software Developer
+
+Short strong professional tagline
+
+Buttons:
+
+View Projects
+
+Download Resume
+
+Contact Me
+
+Optional animated background or subtle particles
+
+2️⃣ About Me (Professional Summary)
+
+Short powerful developer introduction
+
+Focus on:
+
+experience (2+ years)
+
+problem solving mindset
+
+technologies worked with
+
+career focus
+
+3️⃣ Skills Section (Visual Format)
+
+Categorize into:
+
+Programming Languages
+
+Frameworks
+
+Databases
+
+Tools
+
+Show skills using:
+
+animated progress bars OR skill cards OR badges
+
+4️⃣ Experience Timeline (Premium UI)
+
+Show companies in a vertical timeline
+
+Include:
+
+role
+
+company
+
+duration
+
+major achievements
+
+5️⃣ Projects Showcase (Very Important)
+
+Display project cards with:
+
+project name
+
+short description
+
+tech stack tags
+
+GitHub link
+
+Live demo link
+
+Add hover animation
+
+Grid layout preferred
+
+6️⃣ Education Section
+
+Graduation degree
+
+college name
+
+year
+
+styled as elegant info cards
+
+7️⃣ Resume Section
+
+Prominent download/view resume button
+
+PDF placeholder
+
+8️⃣ Social Media Section
+
+LinkedIn
+
+GitHub
+
+Twitter/X
+
+Email
+
+Use professional icon buttons
+
+9️⃣ Contact / Connect With Me Form
+
+Fields:
+
+Name
+
+Email
+
+Message
+
+Add:
+
+validation
+
+success message UI
+
+modern styled inputs
+
+🔟 Premium Footer
+
+copyright
+
+quick links
+
+social icons
+
+⚙️ Technical Requirements (STRICT)
+
+Prefer React + modern CSS (Tailwind preferred)
+OR clean HTML/CSS/JS if React unavailable
+
+Fully mobile responsive
+
+Clean folder structure
+
+Production-ready code
+
+SEO-friendly headings
+
+Accessible design
+
+Fast loading performance
+
+✨ Extra Premium Features (Add if possible)
+
+Dark / Light mode toggle
+
+Smooth scroll spy navigation
+
+Animated section entrance
+
+Sticky navbar with blur effect
+
+Back-to-top floating button
+
+Loading animation
+
+📌 Important Instructions
+
+Use realistic placeholder developer data so I can edit later.
+
+Focus more on quality over quantity.
+
+Avoid generic beginner portfolio style.
+
+Output complete runnable project code.
+
+The result must look like a serious professional developer portfolio that stands out in hiring processes.
