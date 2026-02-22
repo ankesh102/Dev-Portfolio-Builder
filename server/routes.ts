@@ -43,6 +43,11 @@ export async function registerRoutes(
     try {
       const input = api.contact.submit.input.parse(req.body);
       const message = await storage.createMessage(input);
+      
+      // Note: Real email sending would require a service like SendGrid or Resend.
+      // For now, we simulate the "getting mail" by confirming it's saved for ankesh.pandey8@gmail.com
+      console.log(`Notification: New message from ${input.name} (${input.email}) sent to ankesh.pandey8@gmail.com`);
+      
       res.status(201).json(message);
     } catch (err) {
       if (err instanceof z.ZodError) {

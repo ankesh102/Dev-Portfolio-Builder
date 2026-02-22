@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Github, Linkedin, Code2 } from "lucide-react";
+import { ArrowRight, Download, Github, Linkedin, Code2, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
@@ -46,6 +46,13 @@ export function Hero() {
           </div>
 
           <div className="flex gap-6">
+            <a 
+              href="mailto:ankesh.pandey8@gmail.com" 
+              className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110 duration-200"
+              title="Email Me"
+            >
+              <Mail className="h-6 w-6" />
+            </a>
             <a 
               href="https://github.com/ankesh102" 
               target="_blank"

@@ -84,7 +84,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">hello@developer.com</p>
+                    <p className="font-medium">ankesh.pandy8@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -93,7 +93,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Phone</p>
-                    <p className="font-medium">+1 (555) 000-0000</p>
+                    <p className="font-medium">+91 7903332869</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -102,7 +102,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Location</p>
-                    <p className="font-medium">San Francisco, CA</p>
+                    <p className="font-medium">Bengaluru, India</p>
                   </div>
                 </div>
               </div>
@@ -125,7 +125,7 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="John Doe" {...field} className="bg-background/50" />
+                        <Input placeholder="Your Name" {...field} className="bg-background/50" />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -138,7 +138,7 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Email</FormLabel>
                       <FormControl>
-                        <Input placeholder="john@example.com" {...field} className="bg-background/50" />
+                        <Input placeholder="Your Email" {...field} className="bg-background/50" />
                       </FormControl>
                       <FormMessage />
                     </FormItem>

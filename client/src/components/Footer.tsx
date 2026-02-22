@@ -9,9 +9,12 @@ export function Footer() {
             <h3 className="text-2xl font-bold font-display tracking-tighter mb-2">
               ankesh<span className="text-primary">.dev</span>
             </h3>
-            <p className="text-muted-foreground text-sm">
-              Ankesh Kumar Pandey | Software Engineer
-            </p>
+            <div className="text-muted-foreground text-sm space-y-1">
+              <p>Ankesh Kumar Pandey | Software Engineer</p>
+              <p>Bengaluru, India</p>
+              <p>+91 7903332869</p>
+              <p>ankesh.pandey8@gmail.com</p>
+            </div>
           </div>
 
           <div className="flex gap-6">
