@@ -27,14 +27,14 @@ export function About() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center max-w-3xl mx-auto mb-16"
+          className="text-center max-w-4xl mx-auto mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            I am a passionate software engineer with a deep love for creating elegant solutions to complex problems. 
-            My journey in tech started with curiosity and has grown into a career where I get to build 
-            tools that people use every day. I believe in continuous learning and pushing the boundaries 
-            of what's possible on the web.
+          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+            Software Engineer with great motivation and expertise in programming languages, web technologies, and problem-solving. Currently working at TransUnion GCC as a Full Stack Software Engineer, contributing to scalable enterprise communication systems. Open to opportunities that allow me to work in a fast-paced environment and use my skills to provide creative solutions that support business growth.
+          </p>
+          <p className="text-lg text-primary font-medium">
+            Actively exploring Applied AI/ML to build intelligent, data-driven applications.
           </p>
         </motion.div>
 

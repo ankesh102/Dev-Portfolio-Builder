@@ -43,6 +43,24 @@ export const education = pgTable("education", {
   degree: text("degree").notNull(),
   college: text("college").notNull(),
   year: text("year").notNull(),
+  location: text("location"),
+  cgpa: text("cgpa"),
+  coursework: text("coursework").array(),
+  order: integer("order").default(0),
+});
+
+export const certifications = pgTable("certifications", {
+  id: serial("id").primaryKey(),
+  name: text("name").notNull(),
+  issuer: text("issuer").notNull(),
+  link: text("link"),
+  order: integer("order").default(0),
+});
+
+export const achievements = pgTable("achievements", {
+  id: serial("id").primaryKey(),
+  description: text("description").notNull(),
+  links: text("links").array(),
   order: integer("order").default(0),
 });
 
@@ -55,3 +73,5 @@ export type Project = typeof projects.$inferSelect;
 export type Experience = typeof experiences.$inferSelect;
 export type Skill = typeof skills.$inferSelect;
 export type Education = typeof education.$inferSelect;
+export type Certification = typeof certifications.$inferSelect;
+export type Achievement = typeof achievements.$inferSelect;

@@ -9,6 +9,7 @@ const navItems = [
   { name: "Skills", href: "#skills" },
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
+  { name: "Certifications", href: "#certifications" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -43,7 +44,7 @@ export function Navigation() {
       <div className="container-padding flex items-center justify-between">
         <Link href="/">
           <span className="text-2xl font-bold font-display tracking-tighter cursor-pointer">
-            dev<span className="text-primary">.portfolio</span>
+            ankesh<span className="text-primary">.dev</span>
           </span>
         </Link>
 

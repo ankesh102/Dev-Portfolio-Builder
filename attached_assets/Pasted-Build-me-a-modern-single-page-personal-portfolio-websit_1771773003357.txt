@@ -1,0 +1,213 @@
+Build me a modern, single-page personal portfolio website using React.js (with Vite or Create React App). Use Tailwind CSS for styling. The design should be clean, dark-themed, professional, and fully responsive for mobile and desktop.
+
+=======================================================
+PERSONAL DETAILS
+=======================================================
+Name: Ankesh Kumar Pandey
+Email: ankesh.pandey8@gmail.com
+Phone: +91-7903332869
+Location: Garhwa, Jharkhand, India
+Portfolio (current): https://ankesh102.github.io/portfolio-website/
+LinkedIn: https://www.linkedin.com/in/ankesh-pandey8/
+GitHub: https://github.com/ankesh102
+LeetCode: https://leetcode.com/Ankesh102/
+
+=======================================================
+SECTIONS TO INCLUDE (in this order)
+=======================================================
+1. Hero / Header
+2. About
+3. Skills
+4. Experience
+5. Projects
+6. Training & Certifications
+7. Achievements
+8. Education
+9. Footer / Contact
+
+=======================================================
+1. HERO SECTION
+=======================================================
+- Full name: Ankesh Kumar Pandey
+- Title: Software Engineer | Full Stack Developer
+- Subtitle: Java | Spring Boot | React | MongoDB | Microservices
+- CTA buttons:
+    - "View Projects" (scrolls to Projects section)
+    - "Download Resume" (placeholder href="#")
+- Social icons with links: LinkedIn, GitHub, LeetCode
+
+=======================================================
+2. ABOUT SECTION
+=======================================================
+Heading: About Me
+
+Content:
+Software Engineer with great motivation and expertise in programming languages, web technologies, and problem-solving. Currently working at TransUnion GCC as a Full Stack Software Engineer, contributing to scalable enterprise communication systems. Open to opportunities that allow me to work in a fast-paced environment and use my skills to provide creative solutions that support business growth.
+
+Actively exploring Applied AI/ML to build intelligent, data-driven applications.
+
+=======================================================
+3. SKILLS SECTION
+=======================================================
+Display as grouped tag/badge cards.
+
+Languages:
+Java, Python, C++, JavaScript, HTML5, CSS
+
+Frameworks:
+Spring Boot, ReactJS, NodeJS, Express, Bootstrap, Angular
+
+Libraries & Tools:
+Tailwind CSS, Material UI, Redux, React Router, Socket.io, JUnit, Asciidocs
+
+Databases:
+MongoDB, MySQL
+
+DevOps & Cloud:
+Docker, AWS (EC2), ArgoCD, Harness, CI/CD, SonarQube, Nexus, Maven, Git, GitLab, GitHub, Bitbucket, Checkstyle, PMD, Jira, Confluence, Postman
+
+Servers:
+Apache HTTP, Tomcat, NPM, XAMPP, LAMP
+
+Hands-On:
+Microservices, Web Components, Spring Boot, ReactJS, Angular, MongoDB
+
+=======================================================
+4. EXPERIENCE SECTION
+=======================================================
+Display as a vertical timeline.
+
+--- Job 1 ---
+Company: TransUnion GCC
+Role: Software Engineer | Full Stack
+Duration: Feb 2024 - Present
+Location: Bengaluru, India
+Type: Started as Intern, converted to Full-Time after 4 months
+
+Bullet points:
+- Started as an Intern working on a legacy portal (Java, JSP); converted to Full-Time Software Engineer after 4 months.
+- Working on the TruContact Portfolio (Trusted Call Solution), contributing to scalable enterprise communication systems.
+- Core contributor to SDPR microservice — a policy management service responsible for storing policy and subscription data used for real-time call treatment decisions.
+- Led AAM microservice, the central Account & Administrative Management system acting as the source of truth for user and account data across services.
+- Full-stack developer using Spring Boot, Microservices, MongoDB, and Angular.
+- Managed source code repositories and contributed to CI/CD pipelines.
+
+=======================================================
+5. PROJECTS SECTION
+=======================================================
+Display as cards with title, tech stack tags, description bullets, and two buttons: "Live Demo" and "Source Code".
+
+--- Project 1 ---
+Title: Real Time Chat App (MERN Stack)
+Tech Stack: React.js, Node.js, Express.js, MongoDB, Socket.IO
+Live Demo: https://anky-chat.onrender.com/
+Source Code: https://github.com/ankesh102/AnkyChat-MERN
+Description:
+- Developed a real-time one-to-one chat application using Socket.IO for instant messaging.
+- Implemented features such as online status indicators, typing animations, and emoji/image sharing.
+- Deployed the full-stack MERN application on Render with secure MongoDB-backed chat message storage.
+
+--- Project 2 ---
+Title: Placement Portal Web Application
+Tech Stack: HTML, JavaScript, Bootstrap, Advanced CSS
+Live Demo: https://ankesh102.github.io/Placement-Portal/
+Source Code: https://github.com/ankesh102/Placement-Portal
+Description:
+- Built a placement management portal with separate user and admin interfaces.
+- Features include student registration, admin dashboard, and responsive webpages for different portal operations.
+- Implemented admin controls for managing enrolled students, including the ability to block and unblock user accounts.
+
+--- Project 3 ---
+Title: Portfolio Web App
+Tech Stack: React.js, JavaScript, Material UI, CSS, Bootstrap
+Live Demo: https://ankesh102.github.io/portfolio-website/
+Source Code: https://github.com/ankesh102/portfolio-website
+Description:
+- Built an interactive and responsive personal portfolio website.
+- Dedicated sections for projects, qualifications, licenses, and personal information.
+- Utilized multiple NPM libraries to create a polished, interactive interface.
+
+=======================================================
+6. TRAINING & CERTIFICATIONS SECTION
+=======================================================
+Display as a list with certificate name, issuer, and a link where available.
+
+- Data Structure and Algorithms — GeeksForGeeks
+  Link: https://media.geeksforgeeks.org/courses/certificates/077068ece2f67152213182125700c82d.pdf
+
+- DSA Training (Offline) — Coding Minutes
+  (No link)
+
+- React JS Training — Hitsbulleye
+  (No link)
+
+- C++ Programming — Coding Ninjas
+  Link: https://certificate.codingninjas.com/view/740a8d02b775e05f
+
+- Certified Full Stack Web Developer — Udemy (by Dr. Angela Yu)
+  Link: https://www.udemy.com/certificate/UC-dd956353-66ed-4a1d-b4f2-024ff6aebea7/
+
+- Learn C++ Programming: Beginner to Advance — Udemy (by Abdul Bari)
+  Link: https://www.udemy.com/certificate/UC-ab52b17d-0d21-4ca7-b09d-529e51d94464/
+
+- Database Management System Part-1 — Infosys Springboard
+  Link: https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_01275806667282022456_shared/1-60b5cb16-6e40-407a-9ae9-9ce84c68c446.pdf
+
+=======================================================
+7. ACHIEVEMENTS SECTION
+=======================================================
+- 400+ DSA Problems Solved across LeetCode, GeeksForGeeks, and CodeStudio (Aug 2021 - Present)
+  Links:
+    LeetCode: https://leetcode.com/Ankesh102/
+    GeeksForGeeks: https://auth.geeksforgeeks.org/user/ankeshpandey8/
+    CodeStudio: https://www.codingninjas.com/studio/profile/6a6941b5-e5f4-4571-87fe-12e23bffe58d
+
+=======================================================
+8. EDUCATION SECTION
+=======================================================
+Institution: Lovely Professional University
+Degree: B.Tech in Computer Science
+Graduation: July 2024
+Location: Phagwara, Punjab, India
+CGPA: 8.21 / 10.0
+
+Relevant Coursework:
+- Data Structures & Algorithms
+- Operating Systems
+- Advanced Object-Oriented Programming
+- Computer Networks
+- Agile Basics, Cloud Basics, DevOps
+- Spring Boot, Maven, WebServices REST
+- Unit Testing, CI/CD Tools
+- Angular, React
+
+=======================================================
+9. FOOTER / CONTACT SECTION
+=======================================================
+- Heading: Get In Touch
+- Text: Feel free to reach out for collaborations, opportunities, or just a chat.
+- Email button: ankesh.pandey8@gmail.com (mailto link)
+- Social links: LinkedIn, GitHub, LeetCode
+- Copyright: 2024 Ankesh Kumar Pandey. All rights reserved.
+
+=======================================================
+DESIGN REQUIREMENTS
+=======================================================
+- Theme: Dark background (#0a0a0a or similar), accent color: electric blue or cyan (#38bdf8 or #6366f1)
+- Font: Inter or Poppins from Google Fonts
+- Smooth scroll between sections
+- Sticky navbar with section links: About, Skills, Experience, Projects, Certifications, Contact
+- Navbar collapses to hamburger menu on mobile
+- Subtle animations on scroll (fade-in or slide-up for cards and sections)
+- Skill badges with hover effects
+- Project cards with hover lift/glow effect
+- No placeholder images needed — use initials avatar or a simple gradient avatar for the hero section
+- All links must open in a new tab (target="_blank" with rel="noopener noreferrer")
+
+=======================================================
+TECH STACK TO USE
+=======================================================
+- React.js (functional components, hooks)
+- Tailwind CSS
+- No backend needed — purely static frontend
+- Deploy-ready on Replit or GitHub Pages

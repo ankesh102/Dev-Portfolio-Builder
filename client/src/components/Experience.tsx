@@ -94,7 +94,22 @@ export function Experience() {
                   {edu.year}
                 </span>
                 <h3 className="text-xl font-bold">{edu.degree}</h3>
-                <p className="text-lg text-muted-foreground">{edu.college}</p>
+                <p className="text-lg text-muted-foreground font-semibold mb-1">{edu.college}</p>
+                {edu.location && <p className="text-sm text-muted-foreground mb-2">{edu.location}</p>}
+                {edu.cgpa && <p className="text-sm font-bold text-accent mb-4">CGPA: {edu.cgpa}</p>}
+                
+                {edu.coursework && edu.coursework.length > 0 && (
+                  <div>
+                    <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">Relevant Coursework</p>
+                    <div className="flex flex-wrap gap-2">
+                      {edu.coursework.map((course, i) => (
+                        <span key={i} className="text-[10px] px-2 py-0.5 bg-accent/5 border border-accent/10 rounded-md text-muted-foreground italic">
+                          {course}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </motion.div>
             ))}
           </div>

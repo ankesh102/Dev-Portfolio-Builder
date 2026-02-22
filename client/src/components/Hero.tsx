@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Github, Linkedin, Twitter } from "lucide-react";
+import { ArrowRight, Download, Github, Linkedin, Code2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
@@ -19,12 +19,12 @@ export function Hero() {
             Available for new opportunities
           </div>
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-            Building digital <br />
-            <span className="text-gradient">experiences</span> that matter.
+            Ankesh Kumar <br />
+            <span className="text-gradient">Pandey</span>
           </h1>
+          <p className="text-xl font-medium text-primary mb-2">Software Engineer | Full Stack Developer</p>
           <p className="text-lg text-muted-foreground mb-8 max-w-lg leading-relaxed">
-            I'm a Full Stack Developer specializing in building exceptional digital experiences. 
-            Currently, I'm focused on building accessible, human-centered products.
+            Java | Spring Boot | React | MongoDB | Microservices
           </p>
           
           <div className="flex flex-wrap gap-4 mb-12">
@@ -39,21 +39,37 @@ export function Hero() {
               variant="outline" 
               size="lg" 
               className="rounded-full px-8 text-base border-white/10 hover:bg-white/5"
+              asChild
             >
-              Resume <Download className="ml-2 h-4 w-4" />
+              <a href="#">Resume <Download className="ml-2 h-4 w-4" /></a>
             </Button>
           </div>
 
           <div className="flex gap-6">
-            {[Github, Linkedin, Twitter].map((Icon, i) => (
-              <a 
-                key={i} 
-                href="#" 
-                className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110 duration-200"
-              >
-                <Icon className="h-6 w-6" />
-              </a>
-            ))}
+            <a 
+              href="https://github.com/ankesh102" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110 duration-200"
+            >
+              <Github className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/ankesh-pandey8/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110 duration-200"
+            >
+              <Linkedin className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://leetcode.com/Ankesh102/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110 duration-200"
+            >
+              <Code2 className="h-6 w-6" />
+            </a>
           </div>
         </motion.div>
 
