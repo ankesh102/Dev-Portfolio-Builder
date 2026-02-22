@@ -5,7 +5,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 export function Skills() {
   const { data: skills, isLoading } = useSkills();
 
-  const categories = ["Programming Languages", "Frameworks", "Databases", "Tools"];
+  const categories = ["Languages", "Frameworks", "Databases", "Libraries & Tools", "DevOps & Cloud"];
 
   if (isLoading) {
     return (
