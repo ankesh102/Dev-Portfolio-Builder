@@ -84,7 +84,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">ankesh.pandy8@gmail.com</p>
+                    <p className="font-medium">ankesh.pandey8@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
