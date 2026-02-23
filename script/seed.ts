@@ -157,7 +157,7 @@ async function main() {
   ]);
 
   console.log("Database seeded successfully with Ankesh's data!");
-  process.exit(0);
+  // process.exit(0);
 }
 
 main().catch((err) => {
