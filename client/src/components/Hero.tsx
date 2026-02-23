@@ -41,7 +41,14 @@ export function Hero() {
               className="rounded-full px-8 text-base border-white/10 hover:bg-white/5"
               asChild
             >
-              <a href="#">Resume <Download className="ml-2 h-4 w-4" /></a>
+              <a 
+                href="https://drive.google.com/file/d/1lVfevTwUgeOx0dCHpcpYhWp3wyy8ko3b/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                download="Ankesh_Kumar_Pandey_Resume.pdf"
+              >
+                Resume <Download className="ml-2 h-4 w-4" />
+              </a>
             </Button>
           </div>
 

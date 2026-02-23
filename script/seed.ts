@@ -80,7 +80,7 @@ async function main() {
     { category: "Libraries & Tools", name: "Redux", level: 75, order: 14 },
     { category: "Libraries & Tools", name: "Socket.io", level: 80, order: 15 },
     { category: "Databases", name: "MongoDB", level: 85, order: 16 },
-    { category: "Databases", name: "MySQL", level: 80, order: 17 },
+    { category: "Databases", name: "MySQL", level: 50, order: 17 },
     { category: "DevOps & Cloud", name: "Docker", level: 75, order: 18 },
     { category: "DevOps & Cloud", name: "AWS (EC2)", level: 70, order: 19 },
     { category: "DevOps & Cloud", name: "Git", level: 90, order: 20 },
